@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 40rem;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+}
+.main1 {
+    width: 450px;
+    height: 14rem;
+    border-radius: 17px;
+}
+img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 14rem;
+}
+.main2 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px;
+    height: 26rem;
+    width: 450px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    justify-content: space-between;
+    
+}
+.main2 h1 {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+.main2 .p, .p1, .pp {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+}
+.main2 .s1 {
+    display: flex;
+    margin-left: 2rem;
+    width: 50px;
+    height: 50px;
+}
+.main2 .m1 {
+    display: flex;
+    flex-direction: row;
+}
+.main2 .m1 .s2 {
+    margin-left: 20px;
+}
+.main2 .m1 .s2 .p1 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.main2 .m1 .p2 {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+.main2 .m1 .p2 {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+}
+.b1{
+    background-color: blue;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 16px;
+    box-shadow: 0px 20px 30px -13px;
+}
+.b1 p {
+    color: white;
+    font-weight: 900;
+}
+.b2 {
+    background-color: white;
+    border: none;
+    padding: 15px;
+}
+.b2 p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
